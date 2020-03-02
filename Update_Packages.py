@@ -1,4 +1,5 @@
 ﻿# Скрипт обновления пакетов Python
+# Версия 0.0.1
 import subprocess as sbp
 import pip
 pkgs = eval(str(sbp.run("pip3 list -o --format=json", shell=True,
